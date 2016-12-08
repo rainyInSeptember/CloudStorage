@@ -1,0 +1,308 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	overflow: hidden;
+	font-family: Consolas;
+}
+
+#share_info{
+	margin-top:10px;
+	border:1px solid #3276B1;
+	width:500px;
+	height:100px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+.frame-all {
+	margin-top: 50px;
+	width: 1349px;
+	height: 560px;
+}
+
+.frame-aside {
+	float: left;
+	background-color: #F0F0F0;
+	margin-left: 0px;
+	width: 200px;
+	height: 560px;
+	border-right: 1px solid #C6C8CC;
+}
+
+.frame-main {
+	margin-left: 200px;
+	height: 560px;
+	width: 1150px;
+}
+
+.main_header {
+	height: 50px;
+	width: 1165px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.header-button {
+	padding-top: 8px;
+	padding-left: 20px;
+	width: 1048px;
+	height: 50px;
+	float: left;
+}
+
+.header-list {
+	margin: 0 auto;
+	height: 50px;
+	width: 100px;
+	float: left;
+}
+
+.list-switch {
+	padding-left: 20px;
+	float: left;
+	padding-top: 13px;
+}
+
+.header-list ul li {
+	cursor: pointer;
+	width: 30px;
+	height: 26px;
+	float: left;
+	display: block;
+	background: url("../img/listype-icon.png") no-repeat;
+}
+
+.fileinfo {
+	width: 1165px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+
+#frame-head {
+	margin-left: 15px;
+	margin-right: 12px;
+	height: 50px;
+	width: 1138px;
+	background-color: #F7F7F7;
+}
+
+.frame-head-checkbox {
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 15px
+}
+
+.all-Checkbox {
+	width: 16px;
+	height: 16px;
+}
+
+#frame-head-tr {
+
+	width: 1088px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+
+.frame-head-filename {
+	width: 600px;
+	height: 50px;
+	border-right: 1px solid #D2D2D2;
+	float: left;
+}
+
+.frame-head-filesize {
+	width: 248px;
+	height: 50px;
+	border-right: 1px solid #D2D2D2;
+	float: left;
+}
+
+.frame-head-modifytime {
+	width: 240px;
+	height: 50px;
+	float: left;
+}
+
+.allcheckbox {
+	width: 16px;
+	height: 16px;
+}
+
+.table-content-div {
+	padding-left: 18px;
+	height: 430px;
+	width: 1165px;
+	overflow: auto;
+}
+
+.table-content {
+	margin-top: 10px;
+}
+
+.table-content tr {
+	height: 40px;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+.table-content .filename {
+	padding-left: 15px;
+	width: 700px;
+}
+
+.table-content .table-checkbox {
+	padding-left: 10px;
+	width: 26px;
+}
+
+.checkbox-change-head {
+	padding-left: 10px;
+	width: 1140px;
+}
+
+.table-content .filesize {
+	padding-left: 20px;
+	width: 174px;
+}
+
+.table-content .modifytime {
+	padding-left: 20px;
+	width: 240px;
+}
+
+.div-content {
+	margin-left:23px;
+	width: 160px;
+	height: 135px;
+	float: left;
+	margin-top: 10px;
+	position:relative;
+
+}
+
+.div-content-image{
+	width: 120px;
+	height: 100px;
+	float: left;
+	margin-left:20px;
+	position:relative;
+
+}
+.div-content-filename{
+	width: 160px;
+	height: 30px;
+	float: left;
+	margin-top: 5px;
+	line-height:30px;
+	position:relative;
+	overflow: hidden; /*自动隐藏文字*/
+	text-overflow: ellipsis; /*文字隐藏后添加省略号*/
+
+}
+
+
+
+.div-file-img {
+	width: 90px;
+	height: 88px;
+	margin-left: 16px;
+}
+
+.dc-a-filename {
+	width: 90px;
+	margin-left: 20px;
+	border: 0px;
+	text-overflow: ellipsis;
+}
+
+.list-group li {
+	width: 200px;
+}
+
+.div-header-checkbox {
+	width: 1140px;
+}
+
+.table-content-div .div-content .allcheckbox {
+	position: absolute;
+	display: none;
+	margin-top: 0px;
+}
+
+.table-head-checkbox {
+	padding-left: 20px;
+	width: 16px;
+	height: 16px;
+}
+
+.content-checkbox {
+	width: 16px;
+	height: 16px;
+}
+
+.tc-input-filename {
+	width: 260px;
+	height: 30px;
+	border: 0px;
+}
+
+
+.img-ok {
+	padding-left: 10px;
+	display: none;
+}
+
+.img-remove {
+	padding-left: 10px;
+	display: none;
+}
+
+.goback {
+	text-decoration: none;
+	display: none;
+}
+
+#share-btn,#delete-btn,#download-btn,#rename-btn,#copy-btn,#move-btn {
+	width: 100px;
+	margin-left: 10px;
+}
+
+
+
+.file-info-ul {
+	margin-left:20px;
+	list-style-type: none;
+	line-height: 30px;
+	width: auto
+}
+
+li:hover {
+	background-color: #F4F9FD;
+}
+
+.file-info-container {
+	width: 550px;
+	height:200px;
+	overflow: auto;	
+}
+#createDicInput, .renameInput
+{
+	width:80px;
+	height:26px;
+	border:1px solid #47C7F0;
+}
+#share_button{
+	text-align:center;
+}
+

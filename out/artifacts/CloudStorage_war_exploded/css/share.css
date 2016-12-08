@@ -1,0 +1,40 @@
+#shareContent{
+width:1088px;
+height:300px;
+margin-left:130px;
+float:left;
+}
+#buttonGroup{
+margin-top:60px;
+width:1088px;
+margin-left:130px;
+}
+#frame-head-tr {
+	margin-left: 130px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 1088px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	background-color: #F7F7F7;
+}
+.frame-head-filename {
+	width: 600px;
+	height: 50px;
+	border-right: 1px solid #D2D2D2;
+	float: left;
+}
+
+.frame-head-filesize {
+	width: 248px;
+	height: 50px;
+	border-right: 1px solid #D2D2D2;
+	float: left;
+}
+
+.frame-head-modifytime {
+	width: 240px;
+	height: 50px;
+	float: left;
+}

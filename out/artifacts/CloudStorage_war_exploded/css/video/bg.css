@@ -1,0 +1,26 @@
+body
+{
+	margin:0;
+    overflow-x: hidden;  
+    overflow-y: hidden;  
+}
+video
+{
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width:auto;
+	heitht:auto;
+    z-index:-9999;
+	background-size: cover;
+	-webkit-filter:grayscale(100%);
+    -moz-filter: grayscale(100%);    /* 其他内核现在并不支持，为了将来兼容性书写 */  
+     -ms-filter: grayscale(100%);  
+      -o-filter: grayscale(100%);  
+         filter: grayscale(100%);    /* 标准写法 */  
+}
+
+
+
