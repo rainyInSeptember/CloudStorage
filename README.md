@@ -1,11 +1,11 @@
 # CloudStorage
 
 项目介绍：类似于百度云的文件管理系统<br/>
-项目技术：SSH、mysql、hadoop、hdfs<br/>
+项目技术：SSM、mysql、hadoop、hdfs<br/>
 
 优化内容：<br/>
 ---
-1.已经把框架改成SSM的形式，使用Maven管理项目，batis做持久层框架，且基于注解的形式。<br/>
+1.已经把框架改成SSM的形式，使用Maven管理项目，Mybatis做持久层框架，且基于注解的形式。<br/>
 2.hdfs地址从配置文件中读取。<br/>
 
 存在问题：<br/>
